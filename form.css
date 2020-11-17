@@ -1,6 +1,6 @@
 * { 
     margin: 0; 
-    padding: 0;  
+   
   }
   body { 
     background-image:URL(http://clipart-library.com/image_gallery/n1204995.jpg);
@@ -8,9 +8,78 @@
     background-size: cover; 
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 40px;
+    margin:0px;
   }
-  
+  .navbar{
+    height :130px;
+    width: auto;
+    background: rgb(3, 1, 1);
+}
+
+
+.logo1{
+    width:280px;
+    height: 150px;
+    padding: 20px  20px;
+}
+.navbar ul{
+    float:right;
+    margin-right: 100px; 
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0px 8x;
+    display: inline-block;
+    line-height: 100px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 9px 15px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .4s;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    color:white;
+    background-color: #ffad06;
+    border: 1px solid ,#ff105f;
+    outline: none;
+    cursor: pointer;
+    border-radius:  25px;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: black;
+    border-radius:  25px;
+}
+.navbar ul li button{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 9px 10px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    color:white;
+    background-color:#ffad06;
+    border: 1px solid ,#ff105f;
+    outline: none;
+    cursor: pointer;
+    border-radius:  25px;
+    transition: .4s;
+}
+.navbar ul li button:hover{
+    background:black;
+}
+.container{
+    margin: 0;
+    background-color: black;
+    height: 100%;
+}
   .regform { 
+    
     width: 800px; 
     background-color:rgba(252, 9, 9, 0.6);
     margin: auto;
@@ -92,31 +161,30 @@
     top: -37px;
   }
   
-  .agelabel
-{
-    position: relative;
-    left: 200px;
-    top: -10px;
-    line-height: 40px;
-    border-radius: 26px; 
-    padding: 0 22px;
-    font-size: 16px;
-    color: #555;
-    
-}.AGE { 
-    margin-left: 5px;
+   
+.AGE { 
+    margin-left: 30px;
     margin-top: 10px; 
     width: 125px;
     color: rgb(252, 9, 9, 0.6);
     font-size: 20px;
     font-weight: 725;
 }
-
-
+.age { 
+    position: relative;
+    left: 144px;
+    top:-28px; 
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 10px;
+    color: #555;
+  }
   
    .SEX { 
     position: relative;
-    left: 200px;
+    margin-left: 10px;
+    margin-top: 80px; 
     top: -67px;
     line-height: 40px;
     width: 480px;
@@ -125,82 +193,108 @@
     font-size: 16px;
     color:rgb(252, 9, 9, 0.6);
    }
-  
-  
-  
-  
-  .Phone { 
+   .option1{
     position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 40px;
-    width: 255px;
+    left: 175px; 
+    top:-105px; 
+    height: 25px;
     border-radius: 6px;
-    padding: 0 22px; 
-    font-size: 16px;
-    color: #555; 
-  }
-  
-  .country-code { 
+    padding: 0 22px;
+    font-size: 10px;
+    color: #555;
+   }
+   .Phone{
+       margin-top: -70px; 
+       margin-left: 10px;
+       color: rgb(252, 9, 9, 0.6);
+       font-size: 20px;
+       font-weight: 725;
+   }
+   .countrycode{
     position: relative;
-    color: #E5E5E5;
-    text-transform: capitalize;
-    font-size: 16px;
-    left: 54px;
-    top: -4px;
-  }
-  
-  .phone-number { 
+    left: 5px;
+    top:-20px;
+    margin-left: 170px;
+       color:white;
+   }
+   .phone-number{
     position: relative;
-    color: #E5E5E5;
-    text-transform: capitalize;
-    font-size: 16px;
-    left: -100px;
-    top: -2px;  
-  }
-  
-  .Blood-group { 
+    left: 7px;
+    top:-20px;
+    color:white;
+   }
+   .option2{
     position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 40px;
-    width: 480px;
+    left: 7px;
+    top:-20px; 
+    height: 25px;
     border-radius: 6px;
-    padding: 0 22px; 
+    padding: 0 22px;
+    font-size: 10px;
+    color: #555;
+   }
+   .number{
+    position: relative;
+    left:10px;
+    top: -20px;
+    line-height: 25px;
+    border-radius: 6px; 
+    padding: 0 22px;
     font-size: 16px;
     color: #555;
    }
-  
-  
-  .email { 
+   .Blood-group{
+    margin-top: 25px; 
+    margin-left: 10px;
+    color: rgb(252, 9, 9, 0.6);
+    font-size: 20px;
+    font-weight: 725;
+   }
+   .option3{
     position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 40px;
-    width: 480px;
+    left: 175px; 
+    top:-25px; 
+    height: 25px;
     border-radius: 6px;
-    padding: 0 22px; 
-    font-size: 16px;
-    color: #555;
-  }
-  .Address { 
-    position: relative;
-    left: 200px;
-    top: -37px;
-    line-height: 40px;
-    width: 480px;
-    border-radius: 6px;
-    padding: 0 22px; 
-    font-size: 16px;
+    padding: 0 22px;
+    font-size: 10px;
     color: #555;
    }
-  
- 
-  
-  Button { 
+   .email{
+    margin-top: 25px; 
+    margin-left: 10px;
+    color: rgb(252, 9, 9, 0.6);
+    font-size: 20px;
+    font-weight: 725;
+   }
+   .emailid{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 175px; 
+    top: -24px;
+   }
+   .Address{
+    margin-top: 25px; 
+    margin-left: 10px;
+    color: rgb(252, 9, 9, 0.6);
+    font-size: 20px;
+    font-weight: 725;   
+   }
+   .Addressid{
+    position: relative;
+    color: #e5e5e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 175px; 
+    top: -24px; 
+   }
+   
+  .btn2 { 
     background-color: #3BAF9F;
     display: block;
-    margin: 20px 0px 0px 20px;
+    margin-left: 250px;
     text-align: center;
     border-radius: 12px;
     border: 2px solid #366473;
@@ -211,6 +305,6 @@
     transition: 0.25px;
   }
   
-  button:hover { 
+  .btn2:hover { 
     background-color: #5390F5;
   }

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    background: #575757;
+    color: #ffffff;
+}
+.navbar{
+    height :130px;
+    width: auto;
+    background: rgb(3, 1, 1);
+}
+body,html{
+    margin: 0;
+}
+
+.logo1{
+    width:280px;
+    height: 150px;
+    padding: 20px  20px;
+}
+.navbar ul{
+    float:right;
+    margin-right: 100px; 
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0px 8x;
+    display: inline-block;
+    line-height: 100px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 9px 15px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: .4s;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    color:white;
+    background-color: #ffad06;
+    border: 1px solid ,#ff105f;
+    outline: none;
+    cursor: pointer;
+    border-radius:  25px;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: black;
+    border-radius:  25px;
+}
+.navbar ul li button{
+    text-decoration: none;
+    font-size: x-large;
+    padding: 9px 10px;
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    color:white;
+    background-color:#ffad06;
+    border: 1px solid ,#ff105f;
+    outline: none;
+    cursor: pointer;
+    border-radius:  25px;
+    transition: .4s;
+}
+.navbar ul li button:hover{
+    background:black;
+}
+.container{
+    margin: 0;
+    background-color: black;
+    height: 100%;
+}
+.wrapper{
+    position: fixed;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background: #000000;
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.0);
+}
+
+.wrapper .navbar2{
+   position: relative;
+}
+
+.wrapper .navbar2 .profile_wrap{
+    padding: 25px;
+    text-align: center;
+}
+
+.wrapper .navbar2 .profile_wrap .profile_info .role{
+    font-weight: 600;
+    font-size: 15px;
+    color: #90959b;
+}
+
+.wrapper .navbar2 ul{
+    padding: 10px 40px;
+}
+
+.wrapper .navbar2 ul li > a{
+    display: flex;
+    position: relative;
+    font-size: 17px;
+    padding: 13px;
+    height: 50px;
+    color: #ff9d0a;
+    font-weight: 600;
+    transition: all 1s ease; 
+}
+
+.wrapper .navbar2 ul li a > span{
+    display: inline-block;
+}
+
+ a.active .title_2,
+ a:hover .title_2
+ {
+     color: #ffffff;
+     font-weight: 800;
+ }

@@ -134,3 +134,13 @@ body,html{
      color: #ffffff;
      font-weight: 800;
  }
+ .main{
+    width: 80%; 
+    margin: auto;
+    padding: 0px 200px 0px 200px; 
+    text-align: justify;
+
+ }
+ .main h1{
+     text-align: center;
+ }
